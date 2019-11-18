@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AutomationTest.WorkingElements.WorkingWithTables"/>
+      <class name="AutomationTest.WorkingElements.TextBoxesAndButton"/>
+      <class name="AutomationTest.WorkingElements.WorkingWithCheckBoxes"/>
+      <class name="AutomationTest.WorkingElements.WorkingWithDropDownList"/>
+      <class name="AutomationTest.WorkingElements.WorkingWithDragAndDrop"/>
+      <class name="AutomationTest.WorkingElements.WorkingWithHTML5video"/>
+      <class name="AutomationTest.WorkingElements.WorkingWithTakeScreenshot"/>
+      <class name="AutomationTest.WorkingElements.WorkingWithDoupleClicking"/>
+      <class name="AutomationTest.WorkingElements.ElementIsPresentORnot"/>
+    </classes>
+  </test>
+</suite>

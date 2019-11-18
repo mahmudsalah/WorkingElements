@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AutomationTest.WorkingElements.WorkingWithDragAndDrop">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="DragAndDropTest"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithDragAndDrop -->
+      <class name="AutomationTest.WorkingElements.WorkingWithHTML5video">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="TestHTML5Video"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithHTML5video -->
+      <class name="AutomationTest.WorkingElements.WorkingWithTakeScreenshot">
+        <methods>
+          <include name="ScreenShotTest"/>
+          <include name="TakeScreenShotTest"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithTakeScreenshot -->
+      <class name="AutomationTest.WorkingElements.WorkingWithDropDownList">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="WorkingDropDown"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithDropDownList -->
+      <class name="AutomationTest.WorkingElements.WorkingWithCheckBoxes">
+        <methods>
+          <include name="WorkingCheckBoxes"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithCheckBoxes -->
+      <class name="AutomationTest.WorkingElements.TextBoxesAndButton">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="WorkingTextAndButtonsElement"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.TextBoxesAndButton -->
+      <class name="AutomationTest.WorkingElements.WorkingWithTables">
+        <methods>
+          <include name="WorkingDropDown"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithTables -->
+      <class name="AutomationTest.WorkingElements.ElementIsPresentORnot">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="FindElement"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.ElementIsPresentORnot -->
+      <class name="AutomationTest.WorkingElements.WorkingWithDoupleClicking">
+        <methods>
+          <include name="DoupleClickingTest"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- AutomationTest.WorkingElements.WorkingWithDoupleClicking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
